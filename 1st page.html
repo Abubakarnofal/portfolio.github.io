@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+/* Style the header */
+header {
+  background-color: Red;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 440px; 
+  background: Lime;
+  padding: 40px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 2px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: blue;
+  height: 440px; 
+}}
+// Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<header><img src="photo.jpeg" style ="float:right;width:140px;height:140px">
+
+  <h3 style = "text-align:left">MY PORTFOLIO </h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<h3 style = "text-align:left"><p style = "background-color:black;color:white;text-align:center">LINKS</p></h3>
+      <a href="file:///C:/Users/FINE/Desktop/website/2nd%20page.html"><p style ="text-align:center;color:black;"><button type="button">MY PERSONAL STATEMENT</button></p></a>
+      <a href="file:///C:/Users/FINE/Desktop/website/3rd%20page.html"><p style ="text-align:center;color:black;"><button type="button">PROJECTS</button></p></a>
+    </ul>
+  </nav>
+  
+  <article>
+    <h2 style = "background-color:grey">ABOUT ME</h2>
+    <pre style="font-size:180%;color:white">Hi, I am Abubakar Nofal from Sargodha.
+I was born on 16th may,2003.
+This is my first portfolio website.
+i have done my matriculation from <b>Sargodha</b> and fsc from <b>PGC</b>
+I am vey glad that i got admission in <b style = color:red;>FAST UNIVERSITY</b>
+I choose BSCS as my career as i have interest in computers 
+and mobile phones and it is also emerging field.
+Hope you like my first website.</pre>
+  </article>
+</section>
+
+</body>
+</html>
+
